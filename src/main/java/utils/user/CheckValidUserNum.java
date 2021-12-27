@@ -1,4 +1,4 @@
-package utils;
+package utils.user;
 
 public class CheckValidUserNum {
     private final int VALID_SIZE=3;

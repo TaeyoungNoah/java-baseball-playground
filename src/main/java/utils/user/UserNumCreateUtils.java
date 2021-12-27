@@ -1,4 +1,6 @@
-package utils;
+package utils.user;
+
+import utils.user.CheckValidUserNum;
 
 import java.util.Scanner;
 

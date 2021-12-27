@@ -1,4 +1,6 @@
-package utils;
+package utils.computer;
+
+import utils.game.RandomUtils;
 
 public class ComputerNumCreateUtils {
     final int START_INCLUSIVE = 1;
