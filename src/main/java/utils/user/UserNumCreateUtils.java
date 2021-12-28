@@ -13,9 +13,8 @@ public class UserNumCreateUtils {
     }
 
     public int[] createUserNum() {
-        String userInputRaw = scanner.nextLine();
+        System.out.print("숫자를 입력하세요: ");
+        String userInputRaw = scanner.next();
         return checkValidUserNum.checkValidUserInputIsInteger(userInputRaw);
     }
-
-
 }
